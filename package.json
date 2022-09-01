@@ -1,0 +1,20 @@
+{
+  "name": "pornomusicv2",
+  "version": "2.0.0",
+  "description": "First serious try of doing a music bot on Discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EscritorAnónimo#7015",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.2.0",
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/rest": "^1.1.0",
+    "@discordjs/voice": "^0.11.0",
+    "discord-player": "^5.2.2",
+    "discord.js": "^13.10.3",
+    "dotenv": "^16.0.2"
+  }
+}
