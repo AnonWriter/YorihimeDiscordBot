@@ -1,2 +1,2 @@
-npm i dotenv discord.js@13.10.3 discord-player@5.2.2 @discordjs/voice @discordjs/rest @discordjs/opus @discordjs/builders@1.2.0
-node --no-deprecation index.js
+npm i dotenv discord.js@13.10.3 images-scraper 
+node --no-deprecation main.js
