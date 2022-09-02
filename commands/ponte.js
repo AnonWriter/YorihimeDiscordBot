@@ -5,7 +5,7 @@ module.exports = {
     {
 
         message.channel.send(
-            'No sirve la porquería, espera hasta que tenga ganas de componerla.'
+            '>>> No sirve la porquería, espera hasta que tenga ganas de componerla.\n- ***EscritorAnónimo#7015***'
             );
     }
     
