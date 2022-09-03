@@ -1,8 +1,6 @@
-const { SSRCMap } = require('@discordjs/voice');
 const Discord = require('discord.js');
 const dotenv = require('dotenv');
 const fs = require("fs");
-const { send } = require('process');
 
 dotenv.config();
 
@@ -16,8 +14,8 @@ const Yori = new Discord.Client(
     }
 );
 
-const token = process.env.Pornografo;
-const prefix = "!pn ";
+const token = process.env.Yorihime;
+const prefix = "!yori ";
 
 Yori.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
@@ -32,7 +30,7 @@ for (const file of commandFiles)
 Yori.once('ready', () =>
 {
     console.log(`Conección existosa: ${Yori.user.tag}`);
-    Yori.user.setActivity("porno", );
+    Yori.user.setActivity("!yori ?");
     Yori.user.setPresence(
         {
             status: 'idle',
@@ -42,7 +40,6 @@ Yori.once('ready', () =>
 
 Yori.on("messageCreate", message =>
 {
-    /* if (message.author.tag !== Yori.user.tag) console.log(`Leyendo mensaje... ${message.content}`); */
     if (message.author.tag === Yori.user.tag) return;
     if(message.author.bot)
     {
@@ -89,13 +86,16 @@ Yori.on("messageCreate", message =>
             Yori.commands.get('borrar').execute(message, args);
             break;
         case '?': case 'help': case 'ayuda': case 'info':
-            Yori.commands.get('help').execute(message, Yori);
+            Yori.commands.get('help').execute(message, Yori, prefix);
             break;
         case 'ponte':
             Yori.commands.get('ponte').execute(message, Yori, prefix, args);
             break;
         case 'img': case 'imagen': case 'image':
             Yori.commands.get('img').execute(message, args);
+            break;
+        case 'ask': case 'pregunta': case '¿':
+            Yori.commands.get('ask').execute(message, prefix);
             break;
     }
 });
