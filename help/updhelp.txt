@@ -1,0 +1,17 @@
+__ **ACTUALIZACIONES** __
+
+**31 de agosto:**
+>> Inicio de operaciones.
+
+**1 de septiembre:**
+>> Implementación de _command handler_.
+>> Código reescrito desde cero.
+>> Implementación de comando ***`img`***.
+>> Me rendí al intentar convertir a Yorihime en un bot de música (temporalmente).
+
+*2 de septiembre*
+>> Implementación de `switch()` para las palabras.
+>> Cambio de la salida del comando ***`img`***.
+>>>> Aleatoridad y selección de entre 10 imágenes.
+
+***`東方Project 綿月 依姫 ___ © EscritorAnónimo, CA de SV.`***

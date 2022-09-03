@@ -1,0 +1,6 @@
+__ **DI** __
+Sin alias.
+
+**`di`** elimina el mensaje original y lo reemplaza enviando lo mismo desde la cuenta de Yorihime.
+
+Sintaxis: **`di`** + **`frase`**

@@ -1,0 +1,6 @@
+__ **IMG** __
+Aliases: `imagen`, `image`
+
+**`img`** toma una imágen aleatoria entre los primeros 9 resultados de búsqueda de google.
+
+Sintaxis: **`img`** + **`búsqueda`** + **`númeroDeImagen de 0 a 9` <= (opcional)**

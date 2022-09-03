@@ -1,0 +1,6 @@
+__ **?** __
+Aliases: `help`, `info`, `ayuda`
+
+**`?`** manda un mensaje de ayuda al remitente. Especifica el uso de los comandos con un argumento más.
+
+Sintaxis: **`?`** + **`comando` <= (opcional)**

@@ -1,0 +1,32 @@
+Todos los comandos tienen que llevar el prefijo **!yori**
+Sintaxis: **`!yori`** **`argumento`** **`sub-argumento`**
+
+__ **MÚSICA:** __
+**`ponte`** + _**sub-argumentos**_
+No sirve la porqueria.
+
+__ **GEIS:** __
+Adivina: || **Tú** ||
+
+__ **COSAS QUE LE PUSE PORQUE SI:** __
+**`img`**
+Manda una imagen al canal del primer resultado de
+la busqueda de Google.
+**`?`**, **`help`**, **`ayuda`** o **`info`**
+Envía un mensaje directo de ayuda a quien lo use.
+**`di`**
+Envía el mensaje que quieras de parte de Yorihime.
+**`borra`**, **`borrar`** o **`eliminar`**
+Borra mensajes
+
+__ **FRASES A LAS QUE RESPONDE** __
+**`gama`**
+Responde "el peinado de culo abierto".
+**`marlos`**
+Resonde "es joto!".
+**`carlos`**
+Responde "el escirtor".
+**`ronni`** o **`roni`**
+Responde "g1".
+**`emir`**
+Responde "el masca riata".

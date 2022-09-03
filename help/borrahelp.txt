@@ -1,0 +1,6 @@
+__ **BORRA** __
+Aliases: `borrar`, `elimina`
+
+**`borra`** elimina el número de mensajes que especifiques.
+
+Sintaxis: **`borra`** + **`númeroDeMensajesABorrar`**

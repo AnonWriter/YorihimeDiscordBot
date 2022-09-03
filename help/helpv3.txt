@@ -1,0 +1,18 @@
+Todos los comandos tienen que llevar el prefijo **!yori**
+Sintaxis: **`!yori`** **`argumento`** **`sub-argumento`**
+
+__ **MÚSICA:** __
+**`ponte`**
+
+__ **COMANDOS CHAFAS:** __
+**`img`**, **`?`**, **`di`**, **`borra`**, **`pregunta`**
+
+__ **PALABRAS A LAS QUE RESPONDE** __
+**`gama`**, **`marlos`**, **`carlos`**, **`ronni`**, **`emir`**, **`mariana`**, **`eri`**
+
+__ **AYUDA ESPECÍFICA** __
+!yori **`?`** + **`comando`**
+_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+__ **SI YA NO RESPONDE LA COCHINADA AVISEN** __
+**EscritorAnónimo#7015**

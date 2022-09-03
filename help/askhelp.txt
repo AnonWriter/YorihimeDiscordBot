@@ -1,0 +1,6 @@
+__ **PREGUNTA** __
+Aliases: `ask`, `¿`
+
+**`pregunta`** responde una pregunta aleatoriamente con ***sí*** o ***no***.
+
+Sintaxis: **`ask`** + **`tuPregunta`**

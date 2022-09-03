@@ -1,0 +1,5 @@
+__ **PONTE** __
+
+**`ponte`** no está en funcionamiento porque `player error can't play a resource that has already ended`.
+
+Sintaxis: **`ponte`** + **`búsqueda`**
