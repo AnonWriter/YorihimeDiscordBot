@@ -1,0 +1,6 @@
+__ **BONK** __
+Sin alias.
+
+**`bonk`** bonk! a quien tú quieras. Tiene que ser forzosamente un usuario.
+
+Sintaxis: **`bonk`** + **`usuario`**

@@ -1,0 +1,6 @@
+__ **PING** __
+Sin alias.
+
+**`ping`** pretende regresar el ping de la computadora hosteando el bot.
+
+Sintaxis: **`ping`**
