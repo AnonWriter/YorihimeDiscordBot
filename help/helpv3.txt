@@ -5,10 +5,10 @@ __ **MÚSICA:** __
 **`ponte`**
 
 __ **COMANDOS CHAFAS:** __
-**`img`**, **`?`**, **`di`**, **`borra`**, **`pregunta`**
+**`img`**, **`?`**, **`di`**, **`borra`**, **`ask`**, **`ping`**, **`bonk`**, **`nobonk`**
 
 __ **PALABRAS A LAS QUE RESPONDE** __
-**`gama`**, **`marlos`**, **`carlos`**, **`ronni`**, **`emir`**, **`mariana`**, **`eri`**
+**`gama`**, **`marlos`**, **`carlos`**, **`ronni`**, **`emir`**, **`mariana`**, **`eri`**, **`jhona`**
 
 __ **AYUDA ESPECÍFICA** __
 !yori **`?`** + **`comando`**

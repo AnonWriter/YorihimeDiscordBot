@@ -11,7 +11,9 @@ __ **ACTUALIZACIONES** __
 
 *2 de septiembre*
 >> Implementación de `switch()` para las palabras.
+>> Ayuda extendida.
 >> Cambio de la salida del comando ***`img`***.
->>>> Aleatoridad y selección de entre 10 imágenes.
+>>>>>>>> Aleatoridad y selección de entre 10 imágenes.
+>> Implementación de comando ***`ask`***.
 
 ***`東方Project 綿月 依姫 ___ © EscritorAnónimo, CA de SV.`***
