@@ -92,7 +92,7 @@ Yori.on("messageCreate", message =>
             Yori.commands.get('borrar').execute(message, args);
             break;
         case '?': case 'help': case 'ayuda': case 'info':
-            Yori.commands.get('help').execute(message, Yori, prefix);
+            Yori.commands.get('help').execute(message, Yori, prefix, cmd, args);
             break;
         case 'ponte':
             Yori.commands.get('ponte').execute(message, Yori, prefix, args);
