@@ -3,9 +3,9 @@ const { MessageEmbed } = require("discord.js");
 module.exports = {
     name: 'ask',
     description: 'Yorihime te responde a una pregunta con un si o un no',
-    execute(message, prefix)
+    execute(message, prefix, cmd)
     {
-        var question = message.content.slice(prefix.length + 4);
+        var question = message.content.slice(prefix.length + cmd.length);
         var decision = Math.floor(Math.random() * 10);
 
         if (!question)
@@ -27,7 +27,7 @@ module.exports = {
 
         const askEmbed = new MessageEmbed()
             .setAuthor(`${message.author.tag} pregunta:`, message.author.displayAvatarURL())
-            .setTitle(`*${question}*`)
+            .setTitle(`${question}`)
             .setColor(message.author.accentColor)
             .setDescription(`**${reply}.**`);
 
