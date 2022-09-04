@@ -47,32 +47,37 @@ Yori.on("messageCreate", message =>
         return;
     }
 
-    switch (message.content.toLowerCase())
+    try {
+        switch (message.content.toLowerCase())
+        {
+            case 'marlos': case 'barrera': case 'malros':
+                message.channel.send('es joto!');
+                break;
+            case 'gama': case 'gmaa': case 'gaam':
+                message.channel.send('el peinado de culo abierto');
+                break;
+            case 'ronni': case 'roni': case 'ranas':
+                message.channel.send('G1');
+                break;
+            case 'carlos': case 'cralos': case 'carlos': case 'escritor':
+                message.channel.send('el escirtor');
+                break;
+            case 'maria': case 'mariana':
+                message.channel.send('le gusta el gama');
+                break;
+            case 'eri': case 'eriberto': case 'eir':
+                message.channel.send('se fue al gabacho');
+                break;
+            case 'emir': case 'emri': case 'eimr':
+                message.channel.send('el masca riata');
+                break;
+            case 'jhona': case 'jona': case 'comprayventadeplayschipiadas': case 'veracruz':
+                message.channel.send('mi amigo el jaibo <3');
+                break;
+        }
+    } catch(err)
     {
-        case 'marlos': case 'barrera': case 'malros':
-            message.channel.send('es joto!');
-            break;
-        case 'gama': case 'gmaa': case 'gaam':
-            message.channel.send('el peinado de culo abierto');
-            break;
-        case 'ronni': case 'roni': case 'ranas':
-            message.channel.send('G1');
-            break;
-        case 'carlos': case 'cralos': case 'carlos': case 'escritor':
-            message.channel.send('el escirtor');
-            break;
-        case 'maria': case 'mariana':
-            message.channel.send('le gusta el gama');
-            break;
-        case 'eri': case 'eriberto': case 'eir':
-            message.channel.send('se fue al gabacho');
-            break;
-        case 'emir': case 'emri': case 'eimr':
-            message.channel.send('el masca riata');
-            break;
-        case 'jhona': case 'jona': case 'comprayventadeplayschipiadas': case 'veracruz':
-            message.channel.send('mi amigo el jaibo <3');
-            break;
+        console.log(err);
     }
 
     if(!message.content.toLowerCase().startsWith(prefix))
@@ -83,35 +88,40 @@ Yori.on("messageCreate", message =>
     const args = message.content.slice(prefix.length).split(" ");
     const cmd = args.shift().toLowerCase();
 
-    switch(cmd)
+    try {
+        switch(cmd)
+        {
+            case 'di':
+                Yori.commands.get('di').execute(message, args, prefix);
+                break;
+            case 'borra': case 'borrar': case 'elimina':
+                Yori.commands.get('borrar').execute(message, args);
+                break;
+            case '?': case 'help': case 'ayuda': case 'info':
+                Yori.commands.get('help').execute(message, Yori, prefix, cmd, args);
+                break;
+            case 'ponte':
+                Yori.commands.get('ponte').execute(message, Yori, prefix, args);
+                break;
+            case 'img': case 'imagen': case 'image':
+                Yori.commands.get('img').execute(message, args);
+                break;
+            case 'ask': case 'pregunta': case '¿':
+                Yori.commands.get('ask').execute(message, prefix, cmd);
+                break;
+            case 'ping':
+                Yori.commands.get('ping').execute(message);
+                break;
+            case 'bonk':
+                Yori.commands.get('bonk').execute(message, args);
+                break;
+            case 'nobonk':
+                Yori.commands.get('nobonk').execute(message);
+                break;
+        }
+    } catch (err)
     {
-        case 'di':
-            Yori.commands.get('di').execute(message, args, prefix);
-            break;
-        case 'borra': case 'borrar': case 'elimina':
-            Yori.commands.get('borrar').execute(message, args);
-            break;
-        case '?': case 'help': case 'ayuda': case 'info':
-            Yori.commands.get('help').execute(message, Yori, prefix, cmd, args);
-            break;
-        case 'ponte':
-            Yori.commands.get('ponte').execute(message, Yori, prefix, args);
-            break;
-        case 'img': case 'imagen': case 'image':
-            Yori.commands.get('img').execute(message, args);
-            break;
-        case 'ask': case 'pregunta': case '¿':
-            Yori.commands.get('ask').execute(message, prefix, cmd);
-            break;
-        case 'ping':
-            Yori.commands.get('ping').execute(message);
-            break;
-        case 'bonk':
-            Yori.commands.get('bonk').execute(message, args);
-            break;
-        case 'nobonk':
-            Yori.commands.get('nobonk').execute(message);
-            break;
+        console.log(err);
     }
 });
 

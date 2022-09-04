@@ -1,0 +1,10 @@
+PING google.com (172.217.3.142) 56(84) bytes of data.
+64 bytes from yyz08s13-in-f142.1e100.net (172.217.3.142): icmp_seq=1 ttl=115 time=96.1 ms
+64 bytes from yyz08s13-in-f142.1e100.net (172.217.3.142): icmp_seq=2 ttl=115 time=22.5 ms
+64 bytes from 172.217.3.142: icmp_seq=3 ttl=115 time=39.5 ms
+64 bytes from 172.217.3.142: icmp_seq=4 ttl=115 time=81.6 ms
+64 bytes from 172.217.3.142: icmp_seq=5 ttl=115 time=77.3 ms
+
+--- google.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 22137ms
+rtt min/avg/max/mdev = 22.452/63.407/96.093/27.715 ms
