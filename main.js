@@ -67,9 +67,15 @@ Yori.on("messageCreate", message =>
         case 'eri': case 'eriberto': case 'eir':
             message.channel.send('se fue al gabacho');
             break;
+        case 'emir': case 'emri': case 'eimr':
+            message.channel.send('el masca riata');
+            break;
+        case 'jhona': case 'jona': case 'comprayventadeplayschipiadas': case 'veracruz':
+            message.channel.send('mi amigo el jaibo <3');
+            break;
     }
 
-    if(!message.content.startsWith(prefix))
+    if(!message.content.toLowerCase().startsWith(prefix))
     {
         return;
     }
@@ -95,7 +101,16 @@ Yori.on("messageCreate", message =>
             Yori.commands.get('img').execute(message, args);
             break;
         case 'ask': case 'pregunta': case '¿':
-            Yori.commands.get('ask').execute(message, prefix);
+            Yori.commands.get('ask').execute(message, prefix, cmd);
+            break;
+        case 'ping':
+            Yori.commands.get('ping').execute(message);
+            break;
+        case 'bonk':
+            Yori.commands.get('bonk').execute(message, args);
+            break;
+        case 'nobonk':
+            Yori.commands.get('nobonk').execute(message);
             break;
     }
 });
