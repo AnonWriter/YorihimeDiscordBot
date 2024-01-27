@@ -71,9 +71,6 @@ Yori.on("messageCreate", message =>
             case 'emir': case 'emri': case 'eimr':
                 message.channel.send('el masca riata');
                 break;
-            case 'jhona': case 'jona': case 'comprayventadeplayschipiadas': case 'veracruz':
-                message.channel.send('mi amigo el jaibo <3');
-                break;
         }
     } catch(err)
     {
